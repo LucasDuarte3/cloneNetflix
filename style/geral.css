@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+:root {
+    --corPrimaria: red;
+    --corSecundaria: blue;
+    --Branca: white;
+    --Preta: black;
+}
+#Cabecalho {
+    width: 100%;
+    padding: 30px;
+    background-color: var(--Preta);
+    display: flex;
+    justify-content: space-around;
+}
+img {
+    width: 10%;
+}
+#Netflix {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+A {
+    margin: 20px 2px;
+    padding: 20px 5px;
+    text-decoration: none;
+    color: var(--Branca);
+}
+#Perfil {
+    display: flex;
+    
+}
+#icone {
+    background-color: var(--Branca);
+}
