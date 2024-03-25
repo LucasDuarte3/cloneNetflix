@@ -3,37 +3,65 @@
     padding: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+body {
+    background-color: black;
+}
 :root {
     --corPrimaria: red;
     --corSecundaria: blue;
     --Branca: white;
     --Preta: black;
 }
-#Cabecalho {
+#cabecalho {
     width: 100%;
     padding: 30px;
-    background-color: var(--Preta);
+    background-color: black;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-img {
+#logo1 {
     width: 10%;
 }
-#Netflix {
-    width: 100%;
-    display: flex;
-    justify-content: left;
+#logo2 {
+    width: 30%;
 }
 A {
-    margin: 20px 2px;
-    padding: 20px 5px;
+    padding: 10px;
     text-decoration: none;
     color: var(--Branca);
 }
-#Perfil {
+#direito {
+    width: 30% right;
+    color: var(--Branca);
+    padding: 10px;
     display: flex;
-    
 }
-#icone {
-    background-color: var(--Branca);
+#esquerdo {
+    display: flex;
+    padding: 10px 2px;
+}
+#menu {
+    padding: 2px;
+}
+#links {
+    padding: 20px;
+}
+#B {
+    padding: 2px;
+}
+#botao {
+    background-color: transparent;
+    margin: 5px;
+}
+#banner {
+    margin: 50px;
+    background-image: url(../images/Homem.png);
+}
+#texto {
+    font-size: 20pt;
+    display: flex;
+    flex-direction: column;
+}
+#B {
+    flex-direction: column;
 }
